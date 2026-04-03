@@ -1,0 +1,17 @@
+# Runtime and cache directories
+.*code_py/
+src/.*code_py/
+**/.*-code-py/
+**/.*_code_py/
+__pycache__/
+*.pyc
+
+# Local verification artifacts
+tmp_*/
+tmp_js_bridge*
+
+# Build outputs not required for Python release subset
+dist/
+
+# Legacy planning docs with historical naming
+docs/*_code_py-*.md
